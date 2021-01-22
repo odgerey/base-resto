@@ -6,7 +6,8 @@ const router = vertex.router()
 router.get('/', (req, res) => {
 
 	const data = {
-		greeting: 'Welcome to my Restaurant'
+    greeting: 'Welcome to my Restaurant',
+    description: 'This is a great place for a business meeting or to bring a date!'
 	}
 
 	res.render('index', data)
